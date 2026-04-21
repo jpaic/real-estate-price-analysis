@@ -10,14 +10,14 @@ sns.set_theme(style="whitegrid")
 # PAGE CONFIG
 # -----------------------------
 st.set_page_config(
-    page_title="US Housing Price Analysis",
+    page_title="Real Estate Price Prediction & Market Analysis",
     layout="wide"
 )
 
 # -----------------------------
 # HEADER
 # -----------------------------
-st.title("US Housing Price Prediction — Machine Learning Analysis")
+st.title("Real Estate Price Prediction & Market Analysis")
 st.write(
     "Interactive dashboard for exploratory data analysis and model evaluation "
     "on a US housing dataset."
