@@ -335,6 +335,12 @@ if section == "Dataset Overview":
     </div>
     """, unsafe_allow_html=True)
 
+    st.markdown(
+        "<div style='font-size:0.75rem; color:rgba(255,255,255,0.45); font-style:italic; margin-top:-6px;'>"
+        "Note: these values reflect the dataset after preprocessing, outlier removal, and feature engineering."
+        "</div>",
+        unsafe_allow_html=True
+    )
     col1, col2 = st.columns([3, 2])
 
     with col1:
