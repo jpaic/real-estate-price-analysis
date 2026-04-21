@@ -1,4 +1,4 @@
-# US Housing Price Prediction (Machine Learning Regression)
+# Real Estate Price Prediction & Market Analysis (Machine Learning Regression)
 
 ## Overview
 This project applies supervised machine learning techniques to predict US housing prices based on demographic, geographic, and structural features. The goal is to compare a simple linear model against a non-linear tree-based model and analyze which better captures complex relationships in housing data.
