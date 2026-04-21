@@ -68,12 +68,18 @@ st.markdown("""
 .section-title {
     font-size: 1.55rem;
     font-weight: 700;
-    color: #ffffff;
     margin-bottom: 1.4rem;
     margin-top: 2px;
     line-height: 1.25;
 }
 
+[data-theme="light"] .section-title {
+    color: #111122;
+}
+
+[data-theme="dark"] .section-title {
+    color: #ffffff;
+}
 .metric-row { display: flex; gap: 12px; margin-bottom: 1.2rem; }
 .metric-card {
     flex: 1;
@@ -336,7 +342,7 @@ if section == "Dataset Overview":
     """, unsafe_allow_html=True)
 
     st.markdown(
-        "<div style='font-size:0.75rem; color:rgba(255,255,255,0.45); font-style:italic; margin-top:-6px;'>"
+        "<div style='font-size:0.75rem; color:rgba(100,100,100,0.75); font-style:italic; margin-top:-6px;'>"
         "Note: these values reflect the dataset after preprocessing, outlier removal, and feature engineering."
         "</div>",
         unsafe_allow_html=True
