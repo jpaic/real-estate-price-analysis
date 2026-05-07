@@ -1,0 +1,5 @@
+app/frontend/.next/
+app/frontend/node_modules/
+
+*.pyc
+__pycache__/
