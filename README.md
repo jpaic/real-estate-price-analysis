@@ -4,7 +4,7 @@ End-to-end machine learning project for predicting and analyzing U.S. housing pr
 
 ## Live Demo
 
-[Real Estate Price Analysis Dashboard](https://github.com/jpaic/real-estate-price-analysis)
+[Real Estate Price Analysis Dashboard](https://jpaic-real-estate-price-analysis.vercel.app)
 
 The Next.js dashboard is the main serving/presentation layer. It displays precomputed model results, visualizations, and dataset insights from static JSON, and is optimized for Vercel deployment.
 
