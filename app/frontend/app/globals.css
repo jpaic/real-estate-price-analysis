@@ -172,6 +172,7 @@ select {
 
 .content {
   width: min(100%, 1320px);
+  margin-inline: auto;
   padding: 40px clamp(18px, 4vw, 48px) 56px;
 }
 
